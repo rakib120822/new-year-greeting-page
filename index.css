@@ -42,3 +42,105 @@
     font-size: 72px;
     line-height: 95px;
 }
+/* shared style */
+.text-color-1 {
+    color: #FF0000;
+}
+
+.text-color-2 {
+    color: #070211;
+}
+
+
+/* discount section */
+.discount-section {
+    text-align: center;
+    margin-top: 120px;
+}
+
+.discount-section h1 {
+    font-size: 88px;
+    font-weight: 700;
+}
+
+.discount-section p {
+    font-size: 24px;
+    font-size: 600;
+
+}
+
+
+.discount-section h2 {
+    font-size: 48px;
+    font-weight: 700;
+}
+
+
+/* party-section */
+.party-section {
+    max-width: 1320px;
+    max-height: 600px;
+    margin: 120px auto;
+}
+
+.party-section {
+    position: relative;
+}
+
+.party-section-content::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    border-radius: 16px;
+    background: linear-gradient(180deg, rgba(7, 2, 17, 0.8), rgba(7, 2, 17, 0.1));
+}
+
+.party-bg-img {
+    border-radius: 16px;
+}
+
+
+.party-description {
+    position: absolute;
+    display: flex;
+    top: 69px;
+    bottom: 70px;
+    justify-content: space-between;
+    align-items: center;
+    gap: 40px;
+}
+
+
+.content {
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 50px;
+}
+
+.content h1 {
+    font-size: 64px;
+    /* line-height: 88px; */
+    letter-spacing: 11%;
+}
+
+.content p {
+    font-size: 18px;
+    font-weight: normal;
+    line-height: 30px;
+    color: rgba(255, 255, 255, 0.8);
+
+}
+
+.content a {
+    color: #FFFFFF;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+
+.year-image {
+    padding: 70px 50px 30px 40px;
+}
