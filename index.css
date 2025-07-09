@@ -51,6 +51,11 @@
     color: #070211;
 }
 
+.title {
+    font-size: 48px;
+    color: #070211;
+    font-weight: 700;
+}
 
 .paragraph {
     font-size: 20px;
@@ -222,4 +227,52 @@
     padding: 30px;
 }
 
-.right-content {}
+/* gift-section-style */
+.gift-section {
+    max-width: 1320px;
+    margin: 120px auto;
+}
+
+.gift-title {
+    font-size: 24px;
+    color: #FF0000;
+    margin-bottom: 16px;
+}
+
+
+.card-section {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 24px;
+}
+
+
+/* subscribe-section-style */
+.subscribe-section {
+    max-width: 1320px;
+    margin: 120px auto;
+    background-color: rgba(255, 0, 0, 0.05);
+    text-align: center;
+    padding: 80px 212px;
+    border-radius: 16px;
+}
+
+.subscribe-section input[type="email"] {
+    border-radius: 50px 0 0 50px;
+    padding: 30px 200px 30px 30px;
+    border: none;
+}
+
+.subscribe-section input::placeholder {
+    font-size: 18px;
+}
+
+.subscribe-section button {
+    border: none;
+    background-color: #FF0000;
+    color: #FFFFFF;
+    font-size: 20px;
+    font-weight: 600;
+    padding: 22px 56px 22px 56px;
+    border-radius: 0 50px 50px 0;
+}
