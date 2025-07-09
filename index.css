@@ -52,6 +52,12 @@
 }
 
 
+.paragraph {
+    font-size: 20px;
+    line-height: 32px;
+    color: rgba(7, 2, 17, 0.6);
+    font-weight: normal;
+}
 /* discount section */
 .discount-section {
     text-align: center;
@@ -144,3 +150,76 @@
 .year-image {
     padding: 70px 50px 30px 40px;
 }
+/* event-location-time */
+.event-section {
+    max-width: 1320px;
+    max-height: 482px;
+    margin: 0 auto;
+    background: linear-gradient(to bottom, rgba(255, 0, 0, 0.1), rgba(255, 0, 0, 0));
+    text-align: center;
+    margin-bottom: 120px;
+
+}
+
+.event-location-time {
+    padding: 100px 0;
+}
+
+
+.event-location-time p {
+    font-size: 32px;
+    line-height: 56px;
+    font-weight: 600;
+}
+
+.btn {
+    background-color: #FF0000;
+    color: #FFFFFF;
+    padding: 16px 32px;
+    border-radius: 8px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+/* upcoming-section-style */
+.upcoming-section {
+    max-width: 1320px;
+    max-height: 450px;
+    margin: 120px auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+/* .left-content {
+    max-width: 390px;
+    padding: 22px;
+
+} */
+
+.offer-title {
+    color: #FF0000;
+    font-size: 24px;
+    font-weight: 500;
+    margin-bottom: 16px;
+}
+
+.left-content h2 {
+    font-size: 48px;
+    color: #070211;
+    font-weight: 700;
+    margin-bottom: 22px;
+}
+
+
+
+
+
+.upcoming-section-img {
+    border: 10px solid #FF0000;
+    border-radius: 50%;
+    padding: 30px;
+}
+
+.right-content {}
